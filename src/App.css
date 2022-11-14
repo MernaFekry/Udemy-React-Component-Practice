@@ -1,83 +1,79 @@
+/* 
+  You need to create a folder for .css files to have a good restructure 
+  -5
+
+*/
+
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  /* color: white; */
+	/* background-color: #282c34; */
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	/* color: white; */
 }
 
-
-
-
-
-
-
-
-
-.container{
-  text-align: left;
-  width: 95%;
-  margin: auto;
+.container {
+	text-align: left;
+	width: 95%;
+	margin: auto;
 }
 
-.cardContainer{
-  display:flex ;
-  justify-content: space-between;
-  /* background-color: aqua; */
+.cardContainer {
+	display: flex;
+	justify-content: space-between;
+	/* background-color: aqua; */
 }
 
-
-.courseInfo img{
-  width: 100%;
-  height: 50%;
+.courseInfo img {
+	width: 100%;
+	height: 50%;
 }
 
-.selectionInnerContainer{
-  padding: 30px;
-  margin-top: 20px;
-  border: 1px solid lightgray;
+.selectionInnerContainer {
+	padding: 30px;
+	margin-top: 20px;
+	border: 1px solid lightgray;
 }
 .selectionInnerContainer p {
-  margin-bottom: 15px;
-  margin-top: 15px;
-  width: 70%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	width: 70%;
 }
-.selectionInnerContainer button{
-  padding: 10px 30px;
-  background-color: transparent;
-  font-weight: bolder;
-  cursor: pointer;
-  margin-bottom: 25px;
+.selectionInnerContainer button {
+	padding: 10px 30px;
+	background-color: transparent;
+	font-weight: bolder;
+	cursor: pointer;
+	margin-bottom: 25px;
 }
-.selectionInnerContainer button:hover{
-  background-color: #EDEFF0;
+.selectionInnerContainer button:hover {
+	background-color: #edeff0;
 }
-.pythonCourses{
-  display: flex;
-  justify-content: space-between;
+.pythonCourses {
+	display: flex;
+	justify-content: space-between;
 }
-.imgBorder{
-  border: 1px solid lightgray;
+.imgBorder {
+	border: 1px solid lightgray;
 }
-.selectionInnerContainer h3{
-  font-size: x-large;
+.selectionInnerContainer h3 {
+	font-size: x-large;
 }
-
